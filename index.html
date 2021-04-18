@@ -1,1 +1,236 @@
-Hello World
+<!DOCTYPE html>
+<html lang="en-us">
+    <head>
+    	<title>Jacky Luo Portfolio</title>
+
+    	<!-- meta -->
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        
+        <!-- stylesheet -->
+        <link rel="stylesheet" href="css/bootstrap.min.css">
+        <link rel="stylesheet" href="css/font-awesome.min.css">
+        <link rel="stylesheet" href="css/owl.carousel.css">
+		<link rel="stylesheet" href="css/owl.theme.min.css">
+        <link rel="stylesheet" href="css/animate.css">
+		<link rel="stylesheet" href="css/main.css">
+
+		<!-- google font -->
+        <link href='http://fonts.googleapis.com/css?family=Oswald:300,400' rel='stylesheet'>
+        <link href='http://fonts.googleapis.com/css?family=Open+Sans' rel='stylesheet' type='text/css'>
+        <link href='http://fonts.googleapis.com/css?family=PT+Sans' rel='stylesheet' type='text/css'>
+        <link href='http://fonts.googleapis.com/css?family=Roboto+Condensed:400,300' rel='stylesheet' type='text/css'>
+        <link href='http://fonts.googleapis.com/css?family=Oxygen:400,300' rel='stylesheet' type='text/css'>
+        <link href="http://fonts.googleapis.com/css?family=Rouge+Script" rel="stylesheet" type="text/css">
+        <link href='http://fonts.googleapis.com/css?family=Milonga' rel='stylesheet' type='text/css'>
+    </head>
+    <body>
+        <div class="content-block" id="header">
+            <div id="overlay-1">
+                <header id="site-header" class="clearfix">
+                    <div class="pull-left">
+                        <h1><a href="#">Jacky Luo</a></h1>
+                    </div>
+                    <div class="pull-right">
+                        <nav class="navbar site-nav" role="navigation">
+                            <!-- Brand and toggle get grouped for better mobile display -->
+                            <div class="navbar-header">
+                                <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1">
+                                    <i class="fa fa-bars fa-2x"></i>
+                                </button>
+                            </div>
+ 
+                            <!-- Collect the navlinks, forms, and other content for toggling -->
+                            <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+                                <ul class="nav navbar-nav">
+                                    <li class="active"><a href="#header"><i class="fa fa-home"></i> <span>Home</span></a></li>
+                                    <li><a href="#portfolio"><i class="fa fa-bookmark"></i> Portfolio</a></li>
+                                    <li><a href="#services"><i class="fa fa-bullhorn"></i> Me</a></li>
+                                    <!-- <li><a href="#testimonials"><i class="fa fa-thumbs-up"></i> Tetimonials</a></li> -->
+                                    <!-- <li><a href="#contact"><i class="fa fa-phone-square"></i> Contact</a></li> -->
+                                </ul>
+                            </div>  <!-- /.navbar-collapse -->
+                        </nav>
+                    </div>
+                </header>	<!-- site-header -->
+                
+                <div class="middle text-center clearfix">
+                    <div class="container">
+                        <h1 class="pro-name">Jacky <!-- <span style="color: #71b644;" > -->Luo<!-- </span> --></h1>
+                        <p class="tagline">Hi, check out my portfolio!</p>
+                        <div class="skills">
+
+                        </div>  <!-- skills -->
+                        <a href="#contact" target="_blank" class="btn btn-lg btn-hire wow animated zoomIn">About Me</a>
+                    </div>  <!-- container -->
+                </div>  <!-- middle -->
+                
+                <div class="bottom text-center">
+                    <a href="#portfolio"><i class="fa fa-angle-down fa-3x pulse"></i></a>
+                </div>
+            </div>  <!-- overlay-1 -->
+        </div>  <!-- content-block -->
+
+        <div class="content-block text-center" id="portfolio">
+            <header class="block-heading cleafix">
+                <h1>Some Projects</h1>
+                <!-- <p>Take a look at some of my recent products</p> -->
+            </header>
+
+            <div class="isotope portfolio-items">
+                <div class="element-item grid">
+                    <div class="effect-zoe">
+                        <img class="img-responsive" alt="Portfolio" src="img/gameOfLife.jpg">
+                        <figcaption>
+                            <h2 class="hidden-xs">Game of <span>Life</span></h2>
+
+                        </figcaption>
+                    </div>
+                    <div class="description1">
+                        <p1>This is a simple project called <strong>Game of Life</strong> when I was just starting to learn C++ and you can check it out at <a href="https://github.com/jackyluo5/Game-of-Life" target ="_blank"> my github </a>. <br> <br>
+                        This was a super fun project where I first experienced implementing graphics and creating an interactive interface with the user.</p1>
+                        <br> <br>
+                        <strong>Technologies:</strong> C++, SFML, QT Creator
+                    </div> 
+ 
+                </div>
+                <div class="element-item grid">
+                    <div class="portfolio-item effect-zoe">
+                        <img class="img-responsive" alt="Portfolio" src="img/GraphingCalculator.jpg">
+                        <figcaption>
+                            <h2 class="hidden-xs">Graphing <span>Calculator</span></h2>
+                        </figcaption>
+                    </div>
+                    <div class="description2">
+                        <p1>I built a graphic calculator to take in different equations and functions that works similary to an online graphing calculator known as Desmos. You can check it out here on my Github repo at<a href="https://github.com/jackyluo5/graphingCalculator" target ="_blank"> github.com/jackyluo5/Game-of-Life </a> or check out the calculator at<a href="https://www.desmos.com/calculator" target ="_blank"> Desmos.com/calculator. </a> <br> <br>
+                        This was a more unique project where I utilized my knowledge on data structures and experience with graphics to display a complex graph on a screen.</p1>
+                        <br> <br>
+                        <strong>Technologies:</strong> C++, SFML, QT Creator
+                    </div> 
+                </div>
+                <div class="element-item grid">
+                    <div class="portfolio-item effect-zoe">
+                        <img class="img-responsive" alt="Portfolio" src="img/SQL.jpg">
+                        <figcaption>
+                            <h2 class="hidden-xs">SQL <span>Database</span></h2>
+                        </figcaption>
+                    </div>
+                    <div class="description3">
+                        <p1>To Test my understanding of data structures and algorithms, I built my own classes of B Trees, B+ Trees, Tables, and Multi-Maps to create a database that mimics the functionality of MySQL. I essentially created a parsing algorithm that utilized the concept of a finite state machine, reverse polish notation and the shunting yard concept to parse through different keywords and items in a set map. You can check this project out on my github at<a href="https://github.com/jackyluo5/Database-SQL-" target ="_blank"> github.com/jackyluo5/Database-SQL- </a> <br> <br>
+                        </p1>
+                        <strong>Technologies:</strong> C++, SFML, QT Creator
+                    </div> 
+                </div>
+                <div class="element-item grid">
+                    <div class="portfolio-item effect-zoe">
+                        <img class="img-responsive" alt="Portfolio" src="img/todo_app.jpg">
+                        <figcaption>
+                            <h2 class="hidden-xs">Todo <span>App</span></h2>
+                        </figcaption>
+                    </div>
+                    <div class="description4">
+                        <p1>
+                            I experimented with making mobile apps and made an app called <strong>Todo App</strong> as a way of trying to learn new languages. You can check it out <a href="https://github.com/jackyluo5/Todo_app" target ="_blank"> here! </a>
+                        <br> <br>
+                        <strong>Technologies:</strong> Android Studio, Git
+                        </p1>
+                    </div>
+                </div>
+        </div>  
+
+        </div>  --> <!-- content-block -->
+        <div id="services" class="content-block">
+            <div id="numbers" class="parallax">
+                <div class="overlay">
+                    <!-- title -->
+                    <div class="container-fluid numbers-title">
+                        <div class="container">
+                            <div class="row block-heading">
+                                <h1>About me!</h1>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="container-fluid">
+                        <p> Hi my name is <strong>Jacky Luo</strong> and I am a Junior at the Unversity of California Irvine studying <strong> Computer Science</strong>. I fell into this major because I'm passionate about technology and how things come to be. I am passionate about coding and embedded systems which leads me to me spending most of time trying to learn new languages and try to apply them to personal projects. I really love spending my time watching Youtube videos about technology and why things work the way they do.</p>
+
+                        <p> Somethings that <strong>inspire me</strong> to pursue Computer Science and the STEM industry is the innovations and impacts of NASA and how far technology has come. I am passionate about embedded systems where software meets hardware, and how it's able to create new technology and products. I am interested in understanding the process of this development as I try to build my software skills through coding projects and technical skills by working with robots! I want to continue learning about different processes of design and implementation of products as it is one of the most important steps of developing new technology. I like to challenge myself with new projects as I am restoring a 30 year old car trying to learn about what it takes to run a mechanical engine.</p>
+
+                        </ul> <!-- numbersList end -->
+                    </div><!-- container-fluid end -->
+                </div><!-- overlay end -->
+            </div>
+        </div>
+            
+
+
+
+        <div class="content-block" id="contact">
+            <div class="overlay-3">
+                <header class="block-heading cleafix text-center">
+                    <h1>Socials</h1>
+                    <p> Feel Free to Contact me at <u> <a href="mailto: jackyluo182@gmail.com"> jackyluo182@gmail.com </a> </u> or <u> <a href="mailto: luojt@uci.edu" >luojt@uci.edu </a></u>
+                    </p>
+
+
+                    <p>
+                    Check me out at 
+                    <a href="https://www.facebook.com/jacky.luo02/" target="_blank"> Facebook </a> or 
+                    <a href="https://www.linkedin.com/in/jacky-luo-5b4084180/" target="_blank"> LinkedIn </a> 
+                    </p>
+                    <!-- <p>Feel Free to Contact</p> -->
+
+
+        <footer id="site-footer">
+            <div class="container">
+                <div class="row">
+                    <div class="col-sm-6">
+                        <div class="copyright">&copy; 2014 Developer</div>
+                    </div>
+                    <div class="col-sm-6">
+                        <div class="designed-by">Designed By <a href="http://themewagon.com/" target="_blank">ThemeWagon</a></div>
+                    </div>
+                </div>
+            </div>
+        </footer>	<!-- site-footer -->
+
+
+        <!-- js -->
+        <script>
+            new WOW().init();
+        </script>
+
+        <script src="js/jquery-2.1.3.min.js"></script>
+        <script src="js/bootstrap.min.js"></script>
+        <script src="js/jquery.actual.min.js"></script>
+        <script src="js/isotope.pkgd.min.js"></script>
+        <script src="js/owl.carousel.min.js"></script>
+        <script src="js/jquery.isonscreen.js"></script>
+       
+        <script src="js/main.js"></script>
+
+        <script>
+        	$(document).ready(function(){
+  				$('.owl-carousel').owlCarousel({
+    				loop:true,
+    				margin:10,
+    				autoplay:true,
+    				autoplayTimeout:3000,
+    				autoplayHoverPause:true,
+    				responsiveClass:true,
+    				responsive:{
+        					0:{
+					            items:1,
+        					},
+					        600:{
+					            items:1,
+					        },
+					        1000:{
+					            items:1,
+					        }
+    				}
+				})
+			});
+        </script>
+
+	</body>
+</html>
